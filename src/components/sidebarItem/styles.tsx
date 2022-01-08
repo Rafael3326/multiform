@@ -13,6 +13,12 @@ a{
     text-decoration: none;
 }
 
+@media(max-width:1000px){
+    padding: 15px;
+}
+
+
+
 `;
 
 export const Info = styled.div`

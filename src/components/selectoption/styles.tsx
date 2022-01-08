@@ -15,6 +15,7 @@ cursor: pointer;
 &:hover {
     border: 3px solid #496459;
 }
+
 `;
 
 export const Icon = styled.div`
@@ -26,6 +27,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 25px;
+@media ( max-width:700px){
+
+width: 40px;
+height: 40px;
+}
 `;
 
 export const Info = styled.div`

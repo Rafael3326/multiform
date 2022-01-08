@@ -25,6 +25,13 @@ export const Sidebar = styled.div`
 
 width: 250px;
 border-right: 1px solid  #16195c;
+@media( min-width:1000px){
+    width: 200px;
+}
+@media(max-width:580px){
+    display: none;
+}
+
 
 `;
 
@@ -32,4 +39,6 @@ export const Page = styled.div`
 flex: 1;
 padding-left:40px;
 padding-top: 40px;
+
+
 `;

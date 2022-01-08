@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 
 export const Container =  styled.div`
+   
+   @media(max-width:1000px){
+       width: 90%;
+   }
  p{
      font-size: 13px;
      color: #b8b8d4;
@@ -21,23 +25,7 @@ export const Container =  styled.div`
      margin: 30px 0;
  }
 
- label {
-     font-size: 13px;
-
-     input {
-         display: block;
-         margin-top: 7px;
-         box-sizing: border-box;
-         width: 100%;
-         padding: 20px 10px;
-         border: 2px solid #25cd89;
-         border-radius: 10px;
-         color: white;
-         outline: 0;
-         font-size: 15px;
-         background-color: #02044a;
-     }
- }
+ 
 
  button {
      background-color: #25cd89;
@@ -57,4 +45,6 @@ export const Container =  styled.div`
      padding: 15px 30px;
      color: #b8b8d4;
  }
+
+
 `;

@@ -18,4 +18,23 @@ border-bottom:  1px solid #16195c;
         color:#b8b8d4;
         
     }
+
+    @media ( max-width:1000px){
+        padding: 15px 0; 
+        margin-top: 40px;
+        margin-bottom: 20px;
+    h1{
+        margin-left: 30px;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 13px;
+        color:#b8b8d4;
+        margin-left: 30px;
+        
+    }
+
+    }
 `;
